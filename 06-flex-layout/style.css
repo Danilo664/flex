@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  margin:0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  width: 600px;
+  /*WATASHI GA KITA*/
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 7px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+/*WATASHI GA KITA*/
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  gap: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: gray
+}
+.left-links{
+  display: flex;
+  
+}
+.right-links{
+  display: flex;
+}
+
+/*HEADER*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/*HEADER*/
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/*FOOTER*/
+.footer{
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+/*FOOTER*/
